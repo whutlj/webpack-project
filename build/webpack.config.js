@@ -2,6 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 console.log(path.resolve(__dirname))
 module.exports = {
+  // 对象语法
   entry: {
     entry: './src/assets/js/app.js'
   },
